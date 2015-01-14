@@ -21,19 +21,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.bmun.bmundelegate" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63eee6c-9bf5-4a5c-9988-de94176eaa49" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/androidTest/java/com/parke/nathaniel/bmundelegate/ApplicationTest.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/androidTest/java/com/parke/nathaniel/bmundelegate/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/ChairsFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/ChairsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/HomeFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/LocationsFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/LocationsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/MainActivity.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/MapFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/MapFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavDrawerAdapter.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavDrawerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavDrawerItem.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavDrawerItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavigationDrawerFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/NavigationDrawerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/ScheduleFragment.java" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/java/com/parke/nathaniel/bmundelegate/ScheduleFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/delegate-guide/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/delegate-guide/app/src/main/res/layout/activity_main.xml" />
-    </list>
+    <list default="true" id="e63eee6c-9bf5-4a5c-9988-de94176eaa49" name="Default" comment="" />
     <ignored path="BMUN-Delegate.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -958,40 +946,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BMUN-Delegate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bmun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bmundelegate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1211,7 +1165,11 @@
       <created>1421196724815</created>
       <updated>1421196724815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove inner directory">
+      <created>1421197733454</created>
+      <updated>1421197733454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1236,7 +1194,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1316,7 +1274,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Remove inner directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove inner directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
