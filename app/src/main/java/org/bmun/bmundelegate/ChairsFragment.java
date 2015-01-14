@@ -1,4 +1,4 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
 
 import android.app.Activity;
 import android.app.Fragment;

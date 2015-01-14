@@ -11,6 +11,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+    <string name="conference_title">BMUN LXIII</string>
 
     <string-array name="nav_drawer_items">
         <item>Home</item>

@@ -1,4 +1,4 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -35,7 +36,9 @@ public class NavDrawerAdapter extends BaseAdapter {
         }
 
         TextView title = (TextView) convertView.findViewById(R.id.title);
+        ImageView icon = (ImageView) convertView.findViewById(R.id.icon);
 
+        icon.setImageDrawable(navDrawerItems.get(position).getIcon());
         title.setText(navDrawerItems.get(position).getTitle());
         return convertView;
     }

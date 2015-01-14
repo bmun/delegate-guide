@@ -1,16 +1,16 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
 
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -18,9 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -83,11 +81,11 @@ public class NavigationDrawerFragment extends Fragment {
 
         //create menu items
         mNavDrawerItems = new ArrayList<NavDrawerItem>();
-        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[0], HOME));
-        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[1], CHAIRS));
-        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[2], SCHEDULE));
-        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[3], LOCATIONS));
-        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[4], MAP));
+        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[0], HOME, getResources().getDrawable(R.drawable.ic_home)));
+        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[1], CHAIRS, getResources().getDrawable(R.drawable.ic_chairs)));
+        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[2], SCHEDULE, getResources().getDrawable(R.drawable.ic_schedule)));
+        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[3], LOCATIONS, getResources().getDrawable(R.drawable.ic_location)));
+        mNavDrawerItems.add(new NavDrawerItem(mNavMenuTitles[4], MAP, getResources().getDrawable(R.drawable.ic_map)));
 
         // Select either the default item (0) or the last selected item.
         selectItem(mCurrentSelectedPosition);
@@ -259,12 +257,6 @@ public class NavigationDrawerFragment extends Fragment {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
-        if (item.getItemId() == R.id.action_example) {
-            Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 

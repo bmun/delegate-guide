@@ -1,4 +1,4 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

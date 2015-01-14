@@ -1,4 +1,6 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
+
+import android.graphics.drawable.Drawable;
 
 /**
  * Created by Nathaniel on 12/31/14.
@@ -6,14 +8,20 @@ package com.parke.nathaniel.bmundelegate;
 public class NavDrawerItem {
     private String title;
     private String position = "0";
+    private Drawable icon;
 
-    public NavDrawerItem(String title, String position) {
+    public NavDrawerItem(String title, String position, Drawable icon) {
         this.title = title;
         this.position = position;
+        this.icon = icon;
     }
 
     public String getPosition() {
         return this.position;
+    }
+
+    public Drawable getIcon() {
+        return this.icon;
     }
 
     public String getTitle() {

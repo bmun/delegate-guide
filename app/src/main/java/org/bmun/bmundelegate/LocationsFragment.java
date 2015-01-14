@@ -1,4 +1,4 @@
-package com.parke.nathaniel.bmundelegate;
+package org.bmun.bmundelegate;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 /**
  * Created by Nathaniel on 12/31/14.
  */
-public class ScheduleFragment extends Fragment {
-    private final int mSectionNumber = 2;
+public class LocationsFragment extends Fragment {
+    private final int mSectionNumber = 3;
 
-    public ScheduleFragment() {
+    public LocationsFragment() {
     }
 
     @Override

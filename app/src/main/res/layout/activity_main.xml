@@ -8,13 +8,14 @@
 
     <FrameLayout android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@drawable/background"/>
 
     <fragment android:id="@+id/navigation_drawer"
         android:layout_width="@dimen/navigation_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="com.parke.nathaniel.bmundelegate.NavigationDrawerFragment"
+        android:name="org.bmun.bmundelegate.NavigationDrawerFragment"
         tools:layout="@layout/nav_drawer_fragment" />
 
 </android.support.v4.widget.DrawerLayout>
