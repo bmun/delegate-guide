@@ -18,7 +18,7 @@ public class MapFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.content_container, container, false);
+        View rootView = inflater.inflate(R.layout.map_fragment, container, false);
         return rootView;
     }
 
